@@ -1,4 +1,4 @@
-#Apache APISIX Notes
+# Apache APISIX Notes
 
 Production-oriented deployment notes and architecture references for Apache APISIX API Gateway environments.
 
