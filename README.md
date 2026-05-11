@@ -2,13 +2,13 @@
 
 Production-oriented deployment notes and architecture references for Apache APISIX API Gateway environments.
 
-Overview
+# Overview
 
 This repository contains operational notes, deployment examples, routing concepts, authentication configurations, and production best practices for Apache APISIX deployments.
 
 The goal is to document infrastructure patterns and operational knowledge used in real-world API Gateway environments.
 
-Topics Covered
+# Topics Covered
 Apache APISIX installation
 Upstream configuration
 Route management
@@ -19,23 +19,23 @@ Linux deployment practices
 Monitoring and observability
 Production troubleshooting
 High availability concepts
-Repository Structure
+# Repository Structure
 docs/
 configs/
 examples/
 architecture/
 screenshots/
-Notes
+# Notes
 
 All configurations and examples are sanitized and intended for educational and demonstration purposes only.
 
-Technologies
+# Technologies
 Apache APISIX
 Linux
 Nginx
 etcd
 REST APIs
 Load Balancing
-Purpose
+# Purpose
 
 This repository is intended as a technical knowledge base and engineering reference for API Gateway deployments in production environments.
