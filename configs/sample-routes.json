@@ -1,0 +1,25 @@
+```json id="muj9jv"
+{
+  "routes": [
+    {
+      "uri": "/api/users",
+      "methods": ["GET"],
+      "upstream": {
+        "type": "roundrobin",
+        "nodes": {
+          "backend-node-01:443": 1
+        }
+      },
+      "plugins": {
+        "proxy-rewrite": {},
+        "basic-auth": {},
+        "file_logger" {},
+        "limit-req": {
+          "rate": 10,
+          "burst": 20
+        }
+      }
+    }
+  ]
+}
+```
