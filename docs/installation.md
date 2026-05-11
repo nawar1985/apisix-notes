@@ -11,7 +11,7 @@
 - Verify admin API access
 # Verification
 curl http://127.0.0.1:9180/apisix/admin/routes
-#Notes
+# Notes
 - Use separate nodes for production deployments
 - Enable monitoring and logging
-* Secure admin API endpoints
+- Secure admin API endpoints
